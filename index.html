@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+    <Script>-taggen länkar här index.html och script.js.
+     Utan den förstår inte html-filen att den ska använda sig av javaScript-filen.
+     Defer används när <script>-taggen skrivs i html-filens <head>-tagg.
+     Koden läses av uppifrån och ned 
+     och man vill att sidan ska läsas in helt innan <script>-taggen körs. 
+     Så då blir det som om <script>-taggen stod längst ned i <body> som den gör i denna fil.
+    -->
+    <script src="script.js"> </script> 
+</body>
+</html>
